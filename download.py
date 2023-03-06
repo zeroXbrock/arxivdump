@@ -54,7 +54,7 @@ for url in urls:
     for file in tex_files:
         text += file + "\n"
 
-    with open(f"./paper-txt/{paper_name}.tex", "w") as f:
+    with open(f"./paper-txt/{paper_name}.txt", "w") as f:
         f.write(text)
 
 print("done!")
